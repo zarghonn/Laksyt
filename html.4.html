@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Hat</title>
+</head>
+<body>
+
+<script>
+    let name = prompt("What is your name?");
+
+    let houses = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"];
+
+    let randomHouse = Math.floor(Math.random() * houses.length);
+
+    document.body.textContent = name + ", you are " + houses[randomHouse] + ".";
+</script>
+
+</body>
+</html>
